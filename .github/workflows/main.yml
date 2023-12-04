@@ -12,16 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Path check GitHup action'
-        run: pwd
-     
-      - name: 'Welcome Page GitHup action'      
-        run: echo OmarAbdullahMoharam
-     
-      -name: 'folder content Berfore checkout'
+      - name: 'folder content Berfore checkout'
         run: ls
-     
-     - uses: actions/checkout@v3
 
-      -name: 'printing folder content after checkout'
+      - uses: actions/checkout@v3
+
+      - name: 'printing folder content after checkout'
         run: ls
