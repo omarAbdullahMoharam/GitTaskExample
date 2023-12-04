@@ -14,13 +14,13 @@ jobs:
     steps:
       - name: 'Path check GitHup action'
         run: pwd
-
+     
       - name: 'Welcome Page GitHup action'      
         run: echo OmarAbdullahMoharam
-
+     
       -name: 'folder content Berfore checkout'
         run: ls
-
+     
      - uses: actions/checkout@v3
 
       -name: 'printing folder content after checkout'
