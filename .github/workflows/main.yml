@@ -7,6 +7,13 @@ on:
 
 
 
-
-
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Path check GitHup action'
+        run: pwd
+
+      - name: 'Welcome Page GitHup action'      
+        run: echo OmarAbdullahMoharam
