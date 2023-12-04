@@ -12,10 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'folder content Berfore checkout'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'printing folder content after checkout'
-        run: ls
+      - name: 'login to docker hup'
+        run: docker login --username omar790 --password dckr_pat_DfzndQZWuo9SdckhSfnmS-21i5I
