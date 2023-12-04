@@ -18,10 +18,10 @@ jobs:
       - name: 'Welcome Page GitHup action'      
         run: echo OmarAbdullahMoharam
 
-      -name: 'printing folder content Berfore checkout'
+      -name: 'folder content Berfore checkout'
         run: ls
 
-      uses: actions/checkout@v3
+     - uses: actions/checkout@v3
 
       -name: 'printing folder content after checkout'
         run: ls
